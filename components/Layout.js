@@ -1,12 +1,21 @@
 import Navbar from './Navbar';
+import Prism from "Prismjs";
+import { useEffect } from 'react';
 
-const Layout = ({children}) => (
-    <div>
-        <Navbar />
-        <main className="container py-4">
-            {children}
-        </main>
-    </div>
-)
+const Layout = ({children}) => {
+    
+    useEffect(() => {
+        Prism.highlightAll();
+      }, []);
+
+    return (
+        <div>
+            <Navbar />
+            <main className="container py-4">
+                {children}
+            </main>
+        </div>
+    )
+}
 
 export default Layout;
