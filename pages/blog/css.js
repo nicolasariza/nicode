@@ -10,9 +10,7 @@ const Css = () => {
           <p>Selectores por etiqueta</p>
           <strong>Ejemplo:</strong>
           <pre>
-            <code className="language-css">
-              {`p {color:blue}`}
-            </code>
+            <code className="language-css">{`p {color:blue}`}</code>
           </pre>
         </li>
         <li>
@@ -25,6 +23,16 @@ const Css = () => {
           </pre>
         </li>
       </ol>
+      <h3>Fuentes</h3>
+      <p>
+        Es recomendable usar la siguiente propiedad para las páginas responsive:
+      </p>
+      <strong>Ejemplo:</strong>
+      <pre>
+        <code className="language-css">
+          {`white-space: pre-line`}
+        </code>
+      </pre>
     </Layout>
   );
 };
