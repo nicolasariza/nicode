@@ -1,6 +1,11 @@
 import 'bootswatch/dist/lux/bootstrap.min.css';
 import "prismjs/themes/prism-okaidia.css";
 import Head from "next/head";
+// Import Swiper styles
+import "swiper/swiper.min.css";
+import "swiper/components/effect-coverflow/effect-coverflow.min.css"
+import "swiper/components/pagination/pagination.min.css"
+import '../styles/styles.css'
 
 function MyApp({ Component, pageProps }) {
   return (
