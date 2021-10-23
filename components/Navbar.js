@@ -4,10 +4,10 @@ const Navbar = () => (
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
     <div className="container">
       <Link href="/">
-        <a class="navbar-brand">Nicode</a>
+        <a className="navbar-brand">Nicode</a>
       </Link>
       <button
-        class="navbar-toggler"
+        className="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarNav"
@@ -15,18 +15,18 @@ const Navbar = () => (
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
+      <div className="collapse navbar-collapse" id="navbarNav">
+        <ul className="navbar-nav ms-auto">
+          <li className="nav-item">
             <Link href="/blog">
-              <a class="nav-link">Blog</a>
+              <a className="nav-link">Blog</a>
             </Link>
           </li>
-          <li class="nav-item">
+          <li className="nav-item">
             <Link href="/github">
-              <a class="nav-link">Github</a>
+              <a className="nav-link">Github</a>
             </Link>
           </li>
         </ul>

@@ -29,14 +29,14 @@ const Index = () => (
         className="mySwiper"
       >
         <SwiperSlide>
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">CSS</h5>
-              <p class="card-text">
+          <div className="card">
+            <div className="card-body">
+              <h5 className="card-title">CSS</h5>
+              <p className="card-text">
                 Contenido acerca de css y algunas recomendaciones.
               </p>
               <Link href="/blog/css">
-                <button type="button" class="btn btn-primary">
+                <button type="button" className="btn btn-primary">
                   CSS
                 </button>
               </Link>
@@ -44,15 +44,30 @@ const Index = () => (
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div class="card" >
-            <div class="card-body">
-              <h5 class="card-title">Node</h5>
-              <p class="card-text">
+          <div className="card" >
+            <div className="card-body">
+              <h5 className="card-title">Node</h5>
+              <p className="card-text">
                 Node y sus caracteristicas principales.
               </p>
               <Link href="/blog/node">
-                <button type="button" class="btn btn-primary">
+                <button type="button" className="btn btn-primary">
                   NODE
+                </button>
+              </Link>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="card" >
+            <div className="card-body">
+              <h5 className="card-title">Javascript</h5>
+              <p className="card-text">
+                Guía Javascript
+              </p>
+              <Link href="/blog/javascript">
+                <button type="button" className="btn btn-primary">
+                  Javascript
                 </button>
               </Link>
             </div>
