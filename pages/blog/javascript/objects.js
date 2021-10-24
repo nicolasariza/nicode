@@ -1,6 +1,6 @@
 import Layout from '../../../components/Layout';
 
-const Javascript = () => {
+const Objects = () => {
   return (
     <Layout>
       <h1>Javascript</h1>
@@ -84,4 +84,4 @@ const product2 = new Product('TV',250)`}
   );
 };
 
-export default Javascript;
+export default Objects;

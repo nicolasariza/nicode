@@ -5,9 +5,24 @@ const Javascript = () => {
   return (
     <Layout>
       <h1>Javascript</h1>
-      <Link href="javascript/objects">
+      <ol>
+          <li>
+            <Link href="javascript/objects">
               <a className="nav-link">Objetos</a>
-      </Link>
+            </Link>
+          </li>
+          <li>
+            <Link href="javascript/arrays">
+              <a className="nav-link">Arrays</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="javascript/tips">
+              <a className="nav-link">Tips</a>
+            </Link>
+          </li>
+        </ol>
+      
     </Layout>
   );
 };
