@@ -17,6 +17,11 @@ const Javascript = () => {
             </Link>
           </li>
           <li>
+            <Link href="javascript/functions">
+              <a className="nav-link">Functions</a>
+            </Link>
+          </li>
+          <li>
             <Link href="javascript/tips">
               <a className="nav-link">Tips</a>
             </Link>
